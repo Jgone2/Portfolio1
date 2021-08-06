@@ -1,0 +1,20 @@
+.visual {
+  margin-top: 120px;
+  background-image: url('../img/back.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: auto;
+  .container {
+    height: 1000px;
+    #xr {
+      position: absolute;
+      top: 30px;
+      right: 30px;
+      width: 600px;
+      height: 400px;
+      border-radius: 20px;
+      box-shadow: 2px 2px 15px rgba(0, 0, 0, .5);  
+    }
+  }
+}

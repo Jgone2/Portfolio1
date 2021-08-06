@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gon'sfolio</title>
+
+  <!-- META -->
+  <meta property="og:type" content="Website" />
+  <meta property="og:site_name" content="Gon'sfolio" />
+  <meta property="og:title" content="Gon'sfolio" />
+  <meta property="og:description" content="개발자를 꿈꾸는 서재곤의 자기소개 페이지" />
+  <meta property="og:image" content="https://avatars.githubusercontent.com/u/87176677?v=4" /> <!-- 검색엔진 등에서 노출할 수 있는 이미지 -->
+  <meta property="og:url" content="javascript:void(0)" />
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="../scss/common.scss">
+  <link rel="stylesheet" href="../scss/signin.scss">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+  <!-- SCRIPT -->
+  <script defer src="../js/common.js"></script>
+</head>
+
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="container">
+      <a href="../index.html" class="logo">
+        <img src="https://avatars.githubusercontent.com/u/87176677?v=4" alt="로고" />
+      </a>
+      <a href="../index.html" class="title">Gon'sfolio</a>
+      <div class="sub-menu">
+        <ul class="menu">
+          <li><a href="/">Sign in</a></li>
+          <li><a href="#">MyPage</a></li>
+          <li><a href="#">Connect</a></li>
+        </ul>
+        <div class="search">
+          <input type="text" />
+          <div class="material-icons">search</div>
+        </div>
+      </div>
+      <ul class="main-menu">
+        <li class="item">
+          <a class="item__name" href="#">Profile</a>
+        </li>
+        <li class="item">
+          <a class="item__name" href="#">Project</a>
+        </li>
+        <li class="item">
+          <a class="item__name" target="_blank" href="https://github.com/Jgone2?tab=repositories">GitHub</a>
+        </li>
+        <li class="item">
+          <a class="item__name" target="_blank" href="https://jgone2.tistory.com/">Tistory</a>
+        </li>
+        <li class="item">
+          <a class="item__name" target="_blank" href="https://www.instagram.com/jgone2/">SNS</a>
+        </li>
+      </ul>
+    </div>
+  </header>
+
+  <!-- SIGN IN -->
+  <section class="signin">
+    <h1>LOGIN</h1>
+    <div class="signin__card">
+      <h2><strong>Welcome!</strong> to Goni's World!</h2>
+      <form action="/">
+        <input type="text" placeholder="아이디를 입력하세요." />
+        <input type="password" placeholder="비밀번호를 입력하세요." />
+        <input type="submit" value="로그인" />
+      </form>
+      <div class="actions">
+        <a href="#">회원가입</a>
+        <a href="#">아이디 찾기</a>
+        <a href="#">비밀번호 찾기</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container">
+      <div class="info">
+        <span>TEL: 010) 9010-5449</span>
+        <span>EMAIL: jgoneit@gmail.com</span>
+      </div>
+      <p class="copyright">
+        &copy;<span class="this-year"></span> Web Developed by Jgon. All Rights Reserved.
+      </p>
+    </div>
+  </footer>
+</body>
+
+</html>
